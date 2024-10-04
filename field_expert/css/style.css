@@ -1,0 +1,157 @@
+body{
+    height: auto;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109,39,239));
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.parent-container{
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    margin: auto;
+    height: auto;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.clientList{
+    float: left;
+    width: 29%;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    margin: auto;
+    height: 65vh;
+    /* padding: 1%; */
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.right-container{
+    float: right;
+    width: 70%;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    margin: auto;
+    height: 65vh;
+    /* padding: 33px; */
+    /* overflow-y: auto; */
+    margin-bottom: 23px;
+}
+
+.container{
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    height: 50vh;
+    /* padding: 33px; */
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: rgb(202, 200, 200);
+    width: 24%;
+    word-break: break-all;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.user{
+    display: flex;
+    /* background-color: rgb(202, 200, 200); */
+    width: 100%;
+    /* padding: 10px; */
+    /* margin: 17px 12px; */
+    border-bottom: 2px solid black;
+    /* border-radius: 10px; */
+    height: auto;
+}
+.user-info{
+    /* display: block; */
+    float: left;
+    /* background-color: rgb(202, 200, 200); */
+    width: 90%;
+    word-break: break-all;
+    padding: 10px;
+    /* margin: 17px 12px; */
+    /* border-bottom: 2px solid black; */
+    /* border-radius: 10px; */
+    height: auto;
+    /* font-size: 19px; */
+}
+.notify{
+    background: gold;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    display: flex; /* or inline-flex */
+    align-items: center; 
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    
+    /* display: table-cell; */
+    /* float: right; */
+    /* background-color: rgb(202, 200, 200); */
+    /* width: 10%; */
+    /* word-break: break-all; */
+    /* padding: 2px; */
+    /* margin: auto; */
+    /* margin: 5% 2% 2% 3%; */
+    /* border: 2px solid black; */
+    /* border-radius: 50%;
+    height: auto;
+    text-align: center;
+    justify-content: center; */
+    /* font-size: 20px; */
+    /* align-content: center; */
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.btn{
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
